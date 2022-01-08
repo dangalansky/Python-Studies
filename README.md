@@ -5,7 +5,9 @@ This repository will be used to regurgitate the information I am currently takin
 
 Most of it will be simple and some of it may be incorrect. 
 
-That said, I welcome constructive criticism, corrections as well as anyone to use this infomation as they see fit.
+That said, I welcome constructive criticism and corrections.
+
+Anyone is welcome to steal, use or otherwise affect the items contained within this repository as they see fit. 
 
 Thank you for taking the time to visit this repository.
 
