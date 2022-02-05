@@ -1,0 +1,16 @@
+## ------------------- Inputs ---------------------- ##
+
+# input() is a function that tells the computer to recieve a data input from the user
+
+input("What is your name?)
+
+# in the above example, the computer will return the string "What is your name?" and await a user response
+## what the user types, will essentially replace the previous value of that string
+### nothing will be done with that input until instructed!
+
+print("Hello " + input("What is your name"))
+
+# in the above example, the computer is awaiting a user input value before it can complete the print() function
+## thus, "What is your name" will appear first, with a prompt for the user to return a value
+### lastly, the computer will return Hello 'User Input'
+
