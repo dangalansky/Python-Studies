@@ -1,0 +1,42 @@
+## ------------------------ Variables -------------------------- ##
+
+# variables are user-created containers, used to store values or data
+## this is a way to shorten/simplify our code so we don't have to retype complicated values
+### can reduce mistakes and improve readability to ourselves and others who use our code
+
+name = "Dan Galansky"
+print(name)
+
+# The above example will return the string "Dan Galansky"
+
+# values can be changed throughout the length of a program
+
+name = "Dan Galansky"
+name = "Dangle Ansky"
+print(name)
+
+# The above example will return the string "Dangle Ansky"
+## Computers read code top to bottom and python is a dynamic language allowing variables to change
+### Thus, the value the computer will assocaited with variable, 'name' is the last stated
+
+# we can use concatenation to combine strings stored inside variables
+
+name1 = Dan
+name2 = Dangle
+print(name1 + name2)
+
+# this above example would return DanDangle
+
+#Variables can also hold other data types such as integers
+
+num = 6
+print(num)
+
+#the above example will return the integer 6
+
+## note: you cannot concatenate integers
+### thus, you can also not concatenate integers with strings
+
+print(num + name1)
+
+# this will return TypeError!!!!!
