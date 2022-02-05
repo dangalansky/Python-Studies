@@ -1,0 +1,47 @@
+## ----------------- The Print Function ------------------- ##
+
+# Functions are code modules that complete a given task
+##The most basic function we can call is the print() function
+
+# print() returns a value in the consule, depending on what is put inside the parentheses 
+
+print("Hello World")
+
+
+# In this above example, what would appear in the console, after running your code would be: Hello World
+## "Hello World" is a string, or ordered set of characters
+## A string is a data type
+## Strings are differentiated from code or other data types through the use of quotation marks
+## Python treats single and double quotation marks as the same
+
+### "I am a string"
+
+### 'I am also a string'
+
+# If we want to print something in quotes, we must use the opposite of whatever kind we are using for the print() function
+
+print('print("what to print")')
+print("print('what to print')")
+
+# If we forget the quotes, we will return a SyntaxError:
+
+print(Hello World)
+
+#### Comment out the above line to return "Hello World" without an error
+
+## ------------------- Line Breaks ---------------------- ##
+
+# if we want code to appear on a new line, insert '/n' inside quotes
+
+print("Hello World\nHello World\nHello World\n")
+
+
+## ------------------- String Concatenation --------------------- ##
+
+# we can also merge seperate strings into a single string through the use of '+'
+## this is referred to as string concatenation
+## seperate strings must be self contained within their own set of quotation marks
+
+print("Hello" + "User")
+
+
