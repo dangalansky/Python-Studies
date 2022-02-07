@@ -44,4 +44,9 @@ print("Hello World\nHello World\nHello World\n")
 
 print("Hello" + "User")
 
+## ------------------- Spaces Between Words --------------------- ##
+
+# if we want to use spaces within a single string, that will translate as long as its inside the quotation marks
+## if we want to add a space between strings, you can add another string that is just a space, like so: " "
+
 
