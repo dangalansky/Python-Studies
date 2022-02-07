@@ -1,0 +1,19 @@
+## ----------------- Type Conversion -------------------- ##
+
+# through the use of proper abbreviation and parentheses, one can convert values to specific data types to overcome compatibility issues
+## ex)
+
+number_of_characters = len(input("What is your name?"))
+print(type(number_of_characters))
+
+# in the above example, after the user inputs their name, the computer will return: <class 'int'>
+## because, while the input is a string, the len() function returns an integer
+### the first line of code is set to determine how long a name is
+
+new_num_char = str(number_of_characters)
+print(new_num_char)
+print(type(new_num_char))
+
+# in the above example, the computer will return a number and <class 'str'>
+## while an integer will be shown, it will actually be a string because we converted in to one 
+
