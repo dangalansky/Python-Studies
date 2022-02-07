@@ -1,6 +1,6 @@
 ## ------------------------ Variables -------------------------- ##
 
-# variables are user-created containers, used to store values or data
+# variables are user-created containers, that store values or data
 ## this is a way to shorten/simplify our code so we don't have to retype complicated values
 ### can reduce mistakes and improve readability to ourselves and others who use our code
 
@@ -33,10 +33,20 @@ num = 6
 print(num)
 
 #the above example will return the integer 6
-
 ## note: you cannot concatenate integers
 ### thus, you can also not concatenate integers with strings
 
 print(num + name1)
 
-# this will return TypeError!!!!!
+# The above example will return TypeError!!!!!
+
+## ------------------------ Naming Variables -------------------------------- ##
+
+# variables should be all lowercase
+## spaces must designated by use of underscores (_)
+### you cannot use python keywords or function names for variables
+#### they must make sense to you and others reading your code so, choose wisely
+
+
+
+
