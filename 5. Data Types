@@ -1,0 +1,47 @@
+## ----------------------- Data Types ------------------------------ ##
+
+# there are 4 main data types:
+
+# 1. string:
+## ordered set of characters designated by use of quotation marks 
+### abbr: str
+
+my_string = "I am a string"
+
+# 2. integer
+## whole number, no decimels, designated by lack of quotes
+### abbr: int
+
+my_integer = 666
+
+#### a note: for large numbers, a comma can be replaced by the use of "_" because the computer ignores underscores in integers
+
+# 3. floating point
+## number with decimels
+### abbr: float
+
+my_float = 6.66
+
+# 4. boolean
+## binary value, expressed as either True or False, capital T and F are necessary
+### abbr: bool
+
+my_bool = True
+
+
+## ---------------------- Confirming Data Types -------------------- ##
+
+# users can always confirm data type through the use of the type() function:
+
+my_string = "I am a string"
+my_integer = 666
+my_float = 6.66
+my_bool = True
+
+print(type(my_string))
+print(type(my_integer))
+print(type(my_float))
+print(type(my_bool))
+
+# in the above example, the computer will return: <class 'str'> <class 'int'> <class 'float'> <class 'bool'>
+
