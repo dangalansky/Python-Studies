@@ -1,0 +1,12 @@
+## --------------------------- Subscript -------------------------------- ##
+
+# a quick note:
+## we can pull out individual characters from strings and individual values from lists
+### we do this through the use of subscripts, or a set of square brackets with an integer in the middle
+
+my_string = "Hello"
+print(my_string[0])
+print(my_string[2])
+
+# in the above example, the computer will return 'H' and 'l'
+## computers count from 0 so the first letter will always be 0
