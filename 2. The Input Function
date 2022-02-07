@@ -14,3 +14,8 @@ print("Hello " + input("What is your name"))
 ## thus, "What is your name" will appear first, with a prompt for the user to return a value
 ### lastly, the computer will return Hello 'User Input'
 
+#### TIP!! ####
+
+# use '\n' at the end of an input for a line break before user reponse, like below:
+
+input("What is your name?\n")
