@@ -1,0 +1,26 @@
+
+
+## ------------------------- Computer Priority of Mathematical Functions -------------------- ##
+
+# to understand how a computer prioritizes mathematical functions, consider the following script:
+
+print(3 * 3 + 3 / 3 - 3)
+
+# what would the answer be? how does a computer decide to order these operations?
+## left to right, seems logical...
+### 3 * 3 = 9, + 3 = 12, / 3 = 4, - 3 = 1
+#### but this is not the answer!
+
+## ------------------------- PEMDAS or PEMDASLR ---------------------------------------- ##
+
+# the order of priority is as follows: parenthesis, exponents, multiplication and divsion, addition and subtraction
+## multiplication and division are of equal priority, in which case priority is given left to right or LR
+### the same applies to addition and subtraction, priority is given L to R
+
+print(3 * 3 + 3 / 3 - 3)
+
+# 3 * 3 = 9, 3 /3 = 1 
+## so: 9 + 1 - 3
+### the actual answer here will be: 7.0
+
+# mathematical operations always return a floating point!
