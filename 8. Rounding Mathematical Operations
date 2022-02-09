@@ -1,0 +1,25 @@
+## ------------------------- Rounding Mathematical Operations -------------------------------- ##
+
+# mathematical operations return a float by default, so what if you just want a whole number, or integer?
+
+print(8/3)
+
+# the above example will return 2.6666 by default
+
+print(int(8/3))
+
+# this above example will return 2
+## int() returns everything on the left side of the decimal
+### this works but sacrifices accuracy 
+
+print(round(8/3))
+
+# the round() function is also a solution
+## left alone, this would return: 3
+### round() rounds up if > 5 or stays if <= 5
+
+print(round(8/3, 2))
+
+# round() takes a second, optional argument, an integer that specifies how many decimal places to round to
+## the higher or lower than 5 rule still applies
+### this will return: 2.67
