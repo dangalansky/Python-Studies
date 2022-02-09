@@ -1,0 +1,14 @@
+## --------------------------------- Introducing F-Strings ---------------------------- ##
+
+# f-strings allow us to incorporate different data types with a string expression
+## this is designated by placing an 'f' before the quotes and placing variables inside curly brackets or '{}'
+
+score = 17
+height = 1.8
+isWinning = True
+print(f'Your score is: {score}, your height is {height}m, it is {isWinning} that you are winning')
+
+# the above example would return this following line:
+## Your score is: 17, your height is 1.8m, it is True that you are winning
+
+# f-strings are an easy way to bypass formal data conversion
