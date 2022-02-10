@@ -1,6 +1,7 @@
 ## ------------------------- Rounding Mathematical Operations -------------------------------- ##
 
-# mathematical operations return a float by default, so what if you just want a whole number, or integer?
+# mathematical operations return a float by default
+## what if you just want a whole number, or integer?
 
 print(8/3)
 
@@ -16,7 +17,7 @@ print(round(8/3))
 
 # the round() function is also a solution
 ## left alone, this would return: 3
-### round() rounds up if > 5 or stays if <= 5
+### round() rounds up if > 5 or down if <= 5
 
 print(round(8/3, 2))
 
