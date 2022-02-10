@@ -1,7 +1,8 @@
 ## ----------------- Data Type Conversion -------------------- ##
 
-# through the use of proper abbreviation and parentheses, one can convert values to specific data types to overcome compatibility issues
-## ex)
+# to overcome compatibility issues, data type conversion is sometimes necessary
+## a common way to accomplish this is through the use of proper abbreviation and parentheses
+### let's start by examining what kind of data type we have using the type() function 
 
 number_of_characters = len(input("What is your name?"))
 print(type(number_of_characters))
