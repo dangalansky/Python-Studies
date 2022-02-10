@@ -1,7 +1,7 @@
 ## --------------------------------- Introducing F-Strings ---------------------------- ##
 
-# f-strings allow us to incorporate different data types with a string expression
-## this is designated by placing an 'f' before the quotes and placing variables inside curly brackets or '{}'
+# f-strings allow us to incorporate different data types within a string expression
+## this is designated by placing an 'f' before the quotes and placing the  variables inside curly brackets or '{}'
 
 score = 17
 height = 1.8
