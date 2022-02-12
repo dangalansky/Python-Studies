@@ -1,0 +1,27 @@
+## --------------------- Nested If-Then Statements ------------------------ ##
+
+a = 50
+
+if a >= 50:
+  if a % 2 == 0:
+    print ('This is an even number')
+  
+# The above statement checks for whether a variable contains an even number using the modulo operator
+## But this only happens if the previous condition is met
+### This is called nesting!
+
+a = 5
+
+if a > 1:
+  if a % 2 == 0:
+    print('This is an even number')
+  elif a % 3 == 0:
+    print ('This number is divisible by 3')
+  else:
+    print('Nah, friend. This won't work!')
+
+
+# in the above example, a = 5 so it is greater than 1
+## but, 5 is not evenly divisible by 2 so it will pass on to the next statement
+### 5 is also not divisible by 3
+#### this will return a statement: Nah, friend, This won't work!
