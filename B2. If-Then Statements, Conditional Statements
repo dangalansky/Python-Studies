@@ -1,0 +1,38 @@
+## -------------------------- If/Then Statements -------------------------------- ##
+
+# if statements are used to check a that a condition is true
+## when conditions are met, the command is executed
+
+a = 50
+if a > 20:
+	print('Command Executed')
+	
+# note the formating above
+## after an 'if' statement is made, a colon follows, line break and then 4 spaces before issuing command
+## what happens if the condition is not met?
+
+a = 50
+if a > 50:
+	print('Command Exectuted')
+elif a == 50:
+	print('This will have to do!')
+	
+# elif means 'else if'
+# if the first 'if' statement has conditons that are not met, the computer continues on, top to bottom
+# this continues until a condition is met, or if no condition is met the computer exits the block
+
+a = 50
+if a > 50:
+	print('Command Executed')
+elif a > 100:
+	print('This is a big number')
+else:
+	print('Program Ended')
+
+# the above statement uses an 'else'
+## 'else' implies that no conditions were met but you still want a command to be executed
+
+
+
+
+  
