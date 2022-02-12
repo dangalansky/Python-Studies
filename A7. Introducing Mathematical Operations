@@ -15,3 +15,20 @@ print(number1 + number2)
 
 # the above example, adds the two integers of a two-digit number together
 ## one would simply need to replace the '+' in the final print statement with any of the above operators to change to multiplication, division, etc. 
+
+## -------------------------- The Modulo Operator -------------------------------- ##
+
+# '%' is called a modulo
+## it divides an 2 numbers and returns only the remainder
+
+a = 4 % 2
+print(a)
+
+# in the above example we would recieve 0, because there is no remainder when we divide 4 by 2
+
+a = 4 % 3
+b = 5 % 3
+print(a)
+
+# in the above example a = 1, because 3 goes into 4 once with 1 remaining
+# b = 2 because 3 goes into 5 once, with 2 remaining 
