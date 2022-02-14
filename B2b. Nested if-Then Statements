@@ -1,5 +1,8 @@
 ## --------------------- Nested If-Then Statements ------------------------ ##
 
+# an if/then statements checks wheter a condition is true or false
+## if a condition is true then a specific block of code is executed
+
 a = 50
 
 if a >= 50:
