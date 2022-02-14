@@ -1,7 +1,9 @@
-## -------------------------- If/Then Statements -------------------------------- ##
+## -------------------------- If/Else Statements -------------------------------- ##
 
-# if statements are used to check a that a condition is true
-## when conditions are met, the command is executed
+
+# an if/else statements checks wheter a condition is true or false
+## if a condition is true then a specific block of code is executed
+
 
 a = 50
 if a > 20:
