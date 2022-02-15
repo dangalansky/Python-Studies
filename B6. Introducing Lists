@@ -13,7 +13,7 @@ list3 = ['a', 2, variable_x, 'd']
 # in the above example, we have a list of integers, a list of strings, and a list of mixed data types
 ## notice we can place variables inside lists which indicate that a value will be received from elsewhere
 
-# we can receive data from a list through the use of subscripts
+# we can receive data from a list through the use of indexing which uses subscripts to refer to a specific ordered item
 ## the order is determined by the order inside the list
 ### remember that the first item will be called '0'
 
@@ -45,4 +45,24 @@ list1.remove('apple')
 ## thus, our list would not be: [1, 2, 3, 4, 1, 'apple']
 
 
+## --------------------------------- Nested Lists -------------------------------------- ##
+
+# nested lists allow us to store one list inside another!
+
+produce = ['blueberries', 'lettuce', 'kale', 'apples']
+
+# what if we wanted a list that refers to just vegetables? or one that refers to just fruits?
+## the solution would be to create those lists nested within a larger list
+
+veg = ['lettuce', 'kale']
+fruit = ['blueberries', 'apples']
+
+produce = [veg, fruit]
+
+# a few things are happening here
+## note that everything inside both veg and fruit, lists themselves, is inside quotes
+### yet produce has the 2 names of lists outside quotes, this is because 'veg' and 'fruit' are variables that contain lists!
+
+#produce is now a list of lists
+## if printed it would return : [['lettuce', 'kale'], ['blueberries', 'apples']]
 
