@@ -33,3 +33,16 @@ list1.append('apple')
 list1.extend([1, 'apple'])
 
 # after calling the extend() function, list will now contain [1, 2, 3, 4, 'apple, 1, 'apple']
+
+## -------------------------------- Other List Functions -------------------------------- ##
+
+# remove()
+## remove() is a function that removes the first instance of whatever is put inside the parentheses
+
+list1.remove('apple')
+
+# the above example would remove apple but only the first case it appeared
+## thus, our list would not be: [1, 2, 3, 4, 1, 'apple']
+
+
+
