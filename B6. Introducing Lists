@@ -1,0 +1,35 @@
+## ------------------------ Introducing Lists ------------------------------ ##
+
+# lists are a type of data structure
+## in other words, an ordered way to organizing and storing data
+### lists are indicated by the use of square brackets and can take mixed data types
+
+list1 = [1, 2, 3, 4]
+
+list2 = ['a', 'b', 'c', 'd',]
+
+list3 = ['a', 2, variable_x, 'd']
+
+# in the above example, we have a list of integers, a list of strings, and a list of mixed data types
+## notice we can place variables inside lists which indicate that a value will be received from elsewhere
+
+# we can receive data from a list through the use of subscripts
+## the order is determined by the order inside the list
+### remember that the first item will be called '0'
+
+print(list1[2])
+
+# the above example will return '3' because list[0]=1, list[1]=2, and list[2]=3
+## we can add to a list from outside of it through the use of the append() function
+
+list1.append('apple')
+
+# the above example will add the string, 'apple' to the end of list1 
+## therefore list1 will now consist of [1, 2, 3, 4, 'apple']
+
+# we can add multiple items to the end of a list with the extend() function
+## in this case, we must put a list inside the parentheses
+
+list1.extend([1, 'apple'])
+
+# after calling the extend() function, list will now contain [1, 2, 3, 4, 'apple, 1, 'apple']
