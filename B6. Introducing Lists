@@ -66,3 +66,14 @@ produce = [veg, fruit]
 #produce is now a list of lists
 ## if printed it would return : [['lettuce', 'kale'], ['blueberries', 'apples']]
 
+
+## --------------------------------- Indexing Nested Lists -------------------------------------- ##
+
+# nested lists follow the same principles for indexing
+## subscripts are still used but mulitiple sets are required for obtaining items
+
+produce[1][0]
+
+# if we wanted to pull 'blueberries' out we would need to refer to the second list and the first item
+## the first subscript refers to the items within produce
+### the second subscript refers to the items within that item
