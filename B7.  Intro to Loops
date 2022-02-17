@@ -13,3 +13,4 @@ print(list)
 # in the above example, the 'for loop' iterates over each character in the string 'hello'
 ## for each letter, the next line of code is executed
 ### this line adds each letter to the empty list, 'list'
+
