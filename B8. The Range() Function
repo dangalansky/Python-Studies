@@ -33,7 +33,3 @@ for number in range(9,3,-1)
 
 
 
-
-
-
-# 'for loops' can also use the range() function to dictate how many times a line of code will be executed
