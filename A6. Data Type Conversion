@@ -1,20 +1,20 @@
 ## ----------------- Data Type Conversion -------------------- ##
 
 # to overcome compatibility issues, data type conversion is sometimes necessary
-## a common way to accomplish this is through the use of proper abbreviation and parentheses
-### let's start by examining what kind of data type we have using the type() function 
+# a common way to accomplish this is through the use of proper abbreviation and parentheses
+# let's start by examining what kind of data type we have using the type() function 
 
 number_of_characters = len(input("What is your name?"))
 print(type(number_of_characters))
 
-# in the above example, after the user inputs their name, the computer will return: <class 'int'>
-## because, while the input is a string, the len() function returns an integer
-### the first line of code is set to determine how long a name is
+# in the above example, after the user inputs their name data, the computer will return: <class 'int'>
+# while the input is a string, the len() function returns an integer
+# the first line of code is set to determine how long a name is
 
 new_num_char = str(number_of_characters)
 print(new_num_char)
 print(type(new_num_char))
 
 # in the above example, the computer will return a number and <class 'str'>
-## while an integer will be shown, it will actually be a string because we converted in to one 
+# while an integer will be shown, it will actually be a string data type because we converted it into one 
 
