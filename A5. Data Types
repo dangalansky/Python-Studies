@@ -1,30 +1,31 @@
-## ----------------------- Data Types ------------------------------ ##
+## ----------------------- Data Types ------------------------ ##
 
 # there are 4 main data types:
 
 # 1. string:
-## ordered set of characters designated by use of quotation marks 
-### abbr: str
+# ordered set of characters designated by use of quotation marks 
+# can be letters, integers, spaces, or symbols, even EMOJIS!
+# abbr: str
 
 my_string = "I am a string"
 
 # 2. integer
-## whole number, no decimels, designated by lack of quotes
-### abbr: int
+# whole number, no decimels, designated by lack of quotes
+# abbr: int
 
 my_integer = 666
 
-#### a note: for large numbers, a comma can be replaced by the use of "_" because the computer ignores underscores in integers
+# note: for large numbers, a "_" can be used in place of a comma because the computer ignores underscores in integers
 
 # 3. floating point
-## number with decimels
-### abbr: float
+# number with decimels
+# abbr: float
 
 my_float = 6.66
 
 # 4. boolean
-## binary value, expressed as either True or False, capital T and F are necessary
-### abbr: bool
+# binary value, expressed as either True or False, capital T and F are necessary
+# abbr: bool
 
 my_bool = True
 
