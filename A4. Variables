@@ -1,23 +1,28 @@
 ## ------------------------ Variables -------------------------- ##
 
 # variables are user-created containers, that store values or data
-## this is a way to shorten/simplify our code so we don't have to retype complicated values
-### can reduce mistakes and improve readability to ourselves and others who use our code
+# this is a way to shorten/simplify our code so we don't have to retype complicated values
+# this will reduce mistakes and improve readability to ourselves and others who use our code
 
 name = "Dan Galansky"
 print(name)
 
-# The above example will return the string "Dan Galansky"
+# the above example will return the string "Dan Galansky"
+
 
 # values can be changed throughout the length of a program
+# code is read top to bottom and python is a dynamic language allowing variables to change
+# thus, the value the computer will assocaite with a variable is the last stated
+
 
 name = "Dan Galansky"
 name = "Dangle Ansky"
 print(name)
 
-# The above example will return the string "Dangle Ansky"
-## Computers read code top to bottom and python is a dynamic language allowing variables to change
-### Thus, the value the computer will assocaited with variable, 'name' is the last stated
+
+# above, you'll notice the same variable is used twice
+# this example will return the string "Dangle Ansky"
+
 
 # we can use concatenation to combine strings stored inside variables
 
@@ -27,25 +32,34 @@ print(name1 + name2)
 
 # this above example would return DanDangle
 
-#Variables can also hold other data types such as integers
+# variables can also any other data type such as integers
 
 num = 6
 print(num)
 
-#the above example will return the integer 6
-## note: you cannot concatenate integers
-### thus, you can also not concatenate integers with strings
+# the above example will return the integer 6
+# note: you cannot concatenate integers
+# it follows then that you can also not concatenate integers with strings
 
 print(num + name1)
 
 # The above example will return TypeError!!!!!
 
-## ------------------------ Naming Variables -------------------------------- ##
 
-# variables should be all lowercase
-## spaces must designated by use of underscores (_)
-### you cannot use python keywords or function names for variables
-#### they must make sense to you and others reading your code so, choose wisely
+## ------------------------ Naming Variables/Python Etiquette -------------------------------- ##
+
+# while you can get away with a lot, there are commonly accepted guidelines
+# like any written language, grammar is important for mass communicability and understanding
+# also there are a lot of mistakes you will avoid in the future by sticking to these:
+
+
+# local variables should be all lowercase
+# spaces must designated by use of underscores (_)
+# python keywords cannot be used for function names or variables
+# as your projects get more complex, your code will get long and it is intense to have to edit so...
+# variables should make sense to you and others reading your code, choose wisely!
+
+
 
 
 
