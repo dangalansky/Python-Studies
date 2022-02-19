@@ -1,18 +1,20 @@
 ## -------------------- The Length Function ------------------------- ##
 
-# len() is used to represent the length funtion
-## this function tells how long a string, list or other data type is
-### the length function returns an integer value
+# len() is used to represent the length function
+# the length function returns an integer value
+# the integer tells how long a string, list or other data type is
+
 
 print(len(input("What is your name")))
 
 # the above example will execute thusly:
 
-    "What is your name?"
-    User: Dan
-    Return: 3
+    ## "What is your name?"
+    ## User: Dan
+    ## Return: 3
 
-# my name is Dan, dan has 3 characters, thus, the computer returns the integer 3
+# my name is Dan, Dan has 3 characters
+# thus, the computer returns the integer 3
 
-# integers (int) are another data type
-## they are represented by a whole number, without quotation marks, and no remainder or decimal
+# integers or 'int' are another data type
+# they are represented by a whole number, without quotation marks, and without decimals
