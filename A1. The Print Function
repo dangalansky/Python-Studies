@@ -1,52 +1,60 @@
 ## ----------------- The Print Function ------------------- ##
 
-# Functions are code modules that complete a given task
-##The most basic function we can call is the print() function
+# functions are blocks of code that complete a given task
+# data is passed into a function to return a specific output
+# to 'call the function' is to bring it into being, we 'call' a function when we type its name
+# the most introductory function we can call is the print() function
 
 # print() returns a value in the consule, depending on what is put inside the parentheses 
 
 print("Hello World")
 
 
-# In this above example, what would appear in the console, after running your code would be: Hello World
-## "Hello World" is a string, or ordered set of characters
-## A string is a data type
-## Strings are differentiated from code or other data types through the use of quotation marks
-## Python treats single and double quotation marks as the same
+# in the above example, what would appear in the console, after running your code would be: Hello World
+# "Hello World" is a string, or ordered set of characters
+# a string is a data type
+# strings are differentiated from code or other data types through the use of quotation marks
+# python treats single and double quotation marks as the same
 
-### "I am a string"
+string = "I am a string"
 
-### 'I am also a string'
+string =  'I am also a string'
 
-# If we want to print something in quotes, we must use the opposite of whatever kind we are using for the print() function
+# if we want to print something in quotes, we must use the opposite of whatever we are using inside the print() function
+# to be more specific, double quotes must be differentiated from single quotes
 
 print('print("what to print")')
 print("print('what to print')")
 
-# If we forget the quotes, we will return a SyntaxError:
+# if one forgets the quotes, we will return a SyntaxError:
 
 print(Hello World)
 
-#### Comment out the above line to return "Hello World" without an error
+# comment out the above line to return "Hello World" without an error
 
 ## ------------------- Line Breaks ---------------------- ##
 
-# if we want code to appear on a new line, insert '/n' inside quotes
+# if we want to insert a line break, insert '\n' inside quotes where the new line should start
 
 print("Hello World\nHello World\nHello World\n")
 
 
-## ------------------- String Concatenation --------------------- ##
+## --------------- String Concatenation ----------------- ##
 
 # we can also merge seperate strings into a single string through the use of '+'
-## this is referred to as string concatenation
-## seperate strings must be self contained within their own set of quotation marks
+# this is referred to as 'string concatenation'
+# seperate strings must be self contained within their own set of quotation marks
 
 print("Hello" + "User")
 
 ## ------------------- Spaces Between Words --------------------- ##
 
-# if we want to use spaces within a single string, that will translate as long as its inside the quotation marks
-## if we want to add a space between strings, you can add another string that is just a space, like so: " "
+# spaces within a single string will translate as long as they are inside the quotation marks
+
+print("Spaces will translate inside the quotes!")
+
+# if we want to add a space between strings, you can add another string that is just a space, like so: " "
+
+print("We can also add a space" "  " "between strings!")
 
 
