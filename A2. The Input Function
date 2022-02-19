@@ -1,21 +1,23 @@
 ## ------------------- Inputs ---------------------- ##
 
-# input() is a function that tells the computer to recieve a data input from the user
+# input() is a function that tells the computer to recieve a data from the user
 
-input("What is your name?)
+name = input("What is your name?")
 
-# in the above example, the computer will return the string "What is your name?" and await a user response
-## what the user types, will essentially replace the previous value of that string
-### nothing will be done with that input until instructed!
+# in the above example, the computer will print the string "What is your name?" and await a user response
+# what the user types, will essentially replace the previous value of that string
+# name = whatever the use types!
+# however, nothing will be done with that input unless instructed
 
 print("Hello " + input("What is your name"))
 
 # in the above example, the computer is awaiting a user input value before it can complete the print() function
-## thus, "What is your name" will appear first, with a prompt for the user to return a value
-### lastly, the computer will return Hello 'User Input'
+# thus, "What is your name" will appear first, with a prompt for the user to return a value
+# once the user enters a name, the computer will print "Hello Your Name"
 
 #### TIP!! ####
 
 # use '\n' at the end of an input for a line break before user reponse, like below:
 
-input("What is your name?\n")
+name = input("What is your name?\n")
+print(name)
