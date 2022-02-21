@@ -2,18 +2,20 @@
 
 
 # an if/else statements checks wheter a condition is true or false
-## if a condition is true then a specific block of code is executed
+# if a condition is true then a specific block of code is executed
 
 
 a = 50
+
 if a > 20:
 	print('Command Executed')
 	
 # note the formating above
-## after an 'if' statement is made, a colon follows, line break and then 4 spaces before issuing command
-## what happens if the condition is not met?
+# after an 'if' statement is made, a colon follows, a line break, and then 4 spaces before issuing command
+# what happens if the condition is not met?
 
 a = 50
+
 if a > 50:
 	print('Command Exectuted')
 elif a == 50:
@@ -21,9 +23,10 @@ elif a == 50:
 	
 # elif means 'else if'
 # if the first 'if' statement has conditons that are not met, the computer continues on, top to bottom
-# this continues until a condition is met, or if no condition is met the computer exits the block
+# this continues until a condition is met, or if no condition is met, the computer exits the code block
 
 a = 50
+
 if a > 50:
 	print('Command Executed')
 elif a > 100:
@@ -32,7 +35,7 @@ else:
 	print('Program Ended')
 
 # the above statement uses an 'else'
-## 'else' implies that no conditions were met but you still want a command to be executed
+# 'else' is used to tell the computer what to do in the case that no conditions are met
 
 
 
