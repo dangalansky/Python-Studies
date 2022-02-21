@@ -1,8 +1,8 @@
 ## --------------------- Introducing Modules ----------------------- ##
 
-# modules are pre-packaged code that are either "inbuilt" in python, or imported from outside
-## inbuilt means the module comes pre-downloaded inside the basic python library
+# modules are pre-packaged code that are either "inbuilt" in python, or imported from outside sources
+# inbuilt means the module comes pre-installed within a python library
 
-# modules serve to simply and shorten code
-## otherwise there would be too much to handle
+# modules serve to simplify and shorten code
+# otherwise there would be too much to handle
 
