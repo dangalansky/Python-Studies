@@ -1,9 +1,11 @@
-## ----------------------------------- Logical Operators ------------------------------------- ##
+## -------------------- Logical Operators --------------------- ##
 
 # logical operators allow to check for multiple conditions within the same line of code
-## the logical operators are 'and', 'or', and 'not'.
+# the logical operators are 'and', 'or', and 'not'.
 
-# 'and' means both conditions must be true
+## -------------------- AND --------------------- ##
+
+# 'and' means all conditions must be true
 
 a = 15
 
@@ -13,7 +15,9 @@ else:
 	print('Conditions are not met')
 
 # in the above example, 'Conditions are not met' would be printed because both conditions were not true
-## 15 is greater than 10, but 15 is not evenly divisible by 2
+# 15 is greater than 10, but 15 is not evenly divisible by 2
+
+## -------------------- OR --------------------- ##
 
 # 'or' means only one condition has to be true
 
@@ -23,7 +27,10 @@ if a > 10 or a % 2 == 0:
 	print('Conditions Met')
 
 # in the above example, 'Conditions met' would be printed
-## 15 is greater than 10 and not evenly divisible by 2 but ONLY ONE has to be true for the statement to be printed
+# 15 is greater than 10 and not evenly divisible by 2 
+#but ONLY ONE has to be true for the statement to be printed
+
+## -------------------- NOT --------------------- ##
 
 # 'not' reverses a condition, or checks for its opposite
 
@@ -33,5 +40,5 @@ if a not < 10:
 	print('Condition met')
 	
 # in the above example, 'Condition met' would be printed
-## 15 is indeed greater than 10 so it is NOT less than 10
+# 15 is indeed greater than 10 so it is NOT less than 10
 
