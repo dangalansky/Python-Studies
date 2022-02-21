@@ -1,17 +1,17 @@
 ## ------------------- Understanding Proper Use of Equal Signs -------------------- ##
 
-# a single '=' is used to assign a value to a variable 
+# a single '=' is used to ASSIGN a value to a variable 
 
 single = 1
 
-# a double '==' is used to confirm/check the equality of 2 values
-## usually used in if/else statements
+# a double '==' is used to confirm/check the EQUALITY of 2 seperate values
+# usually used in if/else statements
 
 if single == 1:
   #do something
 
-# there's also use of '=' with greater than, less than, equal to, or not equal to
-## in this case the '=' always comes after the signifying symbol
+# there's also use of '=' with the symbols: 'greater than', 'less than', 'equal to', or 'not equal to'
+# in these cases the '=' always comes after the signifying symbol
 
 #    >=: greater than or equal to
 #    >=: less than or equal to
