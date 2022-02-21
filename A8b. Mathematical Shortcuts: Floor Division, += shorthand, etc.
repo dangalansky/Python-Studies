@@ -1,7 +1,7 @@
 ## --------------------- Floor Division ---------------------------- ##
 
-# to automatically return a rounded integer, one can perform a floor division function
-## floor division is signified through the use of a double forward slash or '//'
+# to automatically return a rounded integer, one can perform a floor division operation
+# floor division is signified through the use of a double forward slash or '//'
 
 print(8//3)
 
@@ -10,11 +10,11 @@ print(8//3)
 ## -------------------- Other shortcuts! --------------------------- ##
 
 # to manuipulate a previous numerical value, one can use a mathematical operator in conjunction with an '='
-## examples: +=, -=, /=, *=
+# examples: +=, -=, /=, *=
 
 score = 0
 score += 1
 
 # the above example is a shorthand form of writing: score = score + 1
-## now score = 1 and every time this code is passed, another 1 is added to the previous score
-### this can be repeated with any of the previously introduced mathematical operators 
+# now score = 1 and every time this code is passed, another 1 is added to the previous score
+# this can be repeated with any of the previously introduced mathematical operators 
