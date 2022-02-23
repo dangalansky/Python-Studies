@@ -1,8 +1,8 @@
 ## --------------------------- For Loops -------------------------- ##
 
 # loops allow the same line of code to be executed multiple times
-## for loops iterate over a string, list, dictionary or otherwise ordered code property
-### for each iteration, a line of code is executed that involves the item involved
+# for loops iterate over a string, list, dictionary or otherwise ordered code property
+# for each iteration, a line of code is executed that involves the item involved
 list = []
 
 for letter in string:
@@ -11,6 +11,6 @@ for letter in string:
 print(list)
 
 # in the above example, the 'for loop' iterates over each character in the string 'hello'
-## for each letter, the next line of code is executed
-### this line adds each letter to the empty list, 'list'
+# for each letter, the next line of code is executed
+# this line adds each letter to the empty list, 'list'
 
