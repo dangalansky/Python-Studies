@@ -1,8 +1,8 @@
 ## ------------------------ Introducing Lists ------------------------------ ##
 
 # lists are a type of data structure
-## in other words, an ordered way to organizing and storing data
-### lists are indicated by the use of square brackets and can take mixed data types
+# in other words, lists are an ordered way to organize and store data
+# lists are indicated by the use of square brackets and can hold mixed data types
 
 list1 = [1, 2, 3, 4]
 
@@ -11,24 +11,24 @@ list2 = ['a', 'b', 'c', 'd',]
 list3 = ['a', 2, variable_x, 'd']
 
 # in the above example, we have a list of integers, a list of strings, and a list of mixed data types
-## notice we can place variables inside lists which indicate that a value will be received from elsewhere
+# notice we can place variables inside lists which indicate that a value will be received from elsewhere
 
 # we can receive data from a list through the use of indexing which uses subscripts to refer to a specific ordered item
-## the order is determined by the order inside the list
-### remember that the first item will be called '0'
+# the order is determined by the order inside the list
+# remember that the first item will be called '0'
 
 print(list1[2])
 
 # the above example will return '3' because list[0]=1, list[1]=2, and list[2]=3
-## we can add to a list from outside of it through the use of the append() function
+# we can add to a list from outside of it through the use of the append() function
 
 list1.append('apple')
 
 # the above example will add the string, 'apple' to the end of list1 
-## therefore list1 will now consist of [1, 2, 3, 4, 'apple']
+# therefore list1 will now consist of [1, 2, 3, 4, 'apple']
 
 # we can add multiple items to the end of a list with the extend() function
-## in this case, we must put a list inside the parentheses
+# in this case, we must put a list inside the parentheses
 
 list1.extend([1, 'apple'])
 
@@ -37,12 +37,12 @@ list1.extend([1, 'apple'])
 ## -------------------------------- Other List Functions -------------------------------- ##
 
 # remove()
-## remove() is a function that removes the first instance of whatever is put inside the parentheses
+# remove() is a function that removes the first instance of whatever is put inside the parentheses
 
 list1.remove('apple')
 
 # the above example would remove apple but only the first case it appeared
-## thus, our list would not be: [1, 2, 3, 4, 1, 'apple']
+# thus, our list would not be: [1, 2, 3, 4, 1, 'apple']
 
 
 ## --------------------------------- Nested Lists -------------------------------------- ##
@@ -52,7 +52,7 @@ list1.remove('apple')
 produce = ['blueberries', 'lettuce', 'kale', 'apples']
 
 # what if we wanted a list that refers to just vegetables? or one that refers to just fruits?
-## the solution would be to create those lists nested within a larger list
+# the solution would be to create those lists nested within a larger list
 
 veg = ['lettuce', 'kale']
 fruit = ['blueberries', 'apples']
@@ -60,20 +60,20 @@ fruit = ['blueberries', 'apples']
 produce = [veg, fruit]
 
 # a few things are happening here
-## note that everything inside both veg and fruit, lists themselves, is inside quotes
-### yet produce has the 2 names of lists outside quotes, this is because 'veg' and 'fruit' are variables that contain lists!
+# note that everything inside both 'veg' and 'fruit', lists themselves, is inside quotes
+# yet produce has the 2 names of lists outside quotes, this is because 'veg' and 'fruit' are variables that contain lists!
 
-#produce is now a list of lists
-## if printed it would return : [['lettuce', 'kale'], ['blueberries', 'apples']]
+# 'produce' is now a list of lists
+# if printed it would return : [['lettuce', 'kale'], ['blueberries', 'apples']]
 
 
 ## --------------------------------- Indexing Nested Lists -------------------------------------- ##
 
 # nested lists follow the same principles for indexing
-## subscripts are still used but mulitiple sets are required for obtaining items
+# subscripts are still used but mulitiple sets are required for obtaining items
 
 produce[1][0]
 
 # if we wanted to pull 'blueberries' out we would need to refer to the second list and the first item
-## the first subscript refers to the items within produce
-### the second subscript refers to the items within that item
+# the first subscript refers to the items within produce
+# the second subscript refers to the items within that item
