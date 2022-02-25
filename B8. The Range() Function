@@ -13,22 +13,22 @@ for number in range(3,9):
   
 
 # the range() function takes a minimum of 1 argument and up to 3, all must be integer values
-## the above example will print 3, 4, 5, 6, 7, and 8
-### the first argument, optional, determines where the count will start, if none is given 0 is the default
-#### the second argument, required, determines where the count will stop, **this value is not included in the count
+# the above example will print 3, 4, 5, 6, 7, and 8
+# the first argument, optional, determines where the count will start, if none is given 0 is the default
+# the second argument, required, determines where the count will stop, **this value is not included in the count
 
 for number in range(3,9,2):
   print(number)
   
  # the above example will print 3, 5, and 7
- ## the third argument, if given, determines the steps or increments between numbers
- ### if none is given, 1 is the default
+ # the third argument, if given, determines the steps or increments between numbers
+ # if none is given, 1 is the default
 
 for number in range(9,3,-1)
   print(number)
 
 # you can also count down, this requires a larger integer, followed by a smaller integer and then a negative step value
-## the above example will return 9, 8, 7, 6, 5, 4
+# the above example will return 9, 8, 7, 6, 5, 4
 
 
 
