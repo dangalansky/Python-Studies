@@ -1,0 +1,45 @@
+## ----------- Building a List from 'For Loop'------------- ##
+
+# for the next few lessons, we will be working towards building a password generator
+# we will also be using a function from the random module, so we will need to import that
+# this generator will start with pre-populated lists: letters, numbers, and symbols
+# imagine these lists are long enough to contain every possible letter, number and symbol
+
+import random
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f']
+numbers = ['0', '1', '2', '3', '4',  '5']
+symbol = ['!', '#', '$', '%', '^', '*']
+
+
+# we will start by asking the user how many letters, numbers and symbols they would like in their password
+# these input values will be converted from strings to integers
+
+user_letters = int(input('How many letters would you like?: ')
+user_numbers = int(input('How many numbers would you like?: ')
+user_symbols = int(input('How many symbols would you like?: ')
+
+## ------------ For Loops and Building Lists --------------- ##
+
+# at this point we have all the data we need
+# we start by creating an empty list that will be populated by a 'for loop'
+
+password = []
+
+# the random module contains a function called choice()
+# choice returns a random item from a list, tuple or string
+# we will use it to return random letters, numbers and symbols from our list
+
+
+for character in range(user_letters):
+	password += random.choice(letters)
+for character in range(user_numbers):
+	password += random.choice(numbers)
+for character in range(user_symbols):
+	password += random.choice(symbols)
+
+# now our list will be populated with a random assortment characters
+
+print(password)
+
+
