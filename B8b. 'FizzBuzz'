@@ -3,8 +3,8 @@
 # this is apparently a common interview question for coders
 # FizzBuzz is a childrens game, played in a circle
 # you count to 100, if your number is divible by 3 you instead say 'fizz'
- if your number is divisible by 5 you instead say 'buzz'
- for each number divisble by both, you say 'fizzbuzz'
+# if your number is divisible by 5 you instead say 'buzz'
+# for each number divisble by both, you say 'fizzbuzz'
 
 for number in range (1, 101):
 	if number % 3 == 0 and number % 5 == 0:
