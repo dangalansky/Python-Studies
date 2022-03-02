@@ -1,0 +1,22 @@
+## ------------- The Shuffle Function ------------- ##
+
+# we last left off with a list containing a set of randomly selected characters for a password
+# unfortunately, it is still ordered, containing letters then numbers then symbols
+# to further complicate our password, it would help to randomize the list
+
+import random
+
+random.shuffle(password)
+
+# shuffle() is a function of the random module that randomizes items on a list
+
+randomized_password = ""
+
+for character in password:
+	randomized_password += character
+
+print(randomized_password)
+
+# after we return a randomized list we need to convert that into a string
+# much like how we created an empty list to populate in the last lesson, we will create an empty string
+# using a 'for loop' we populate the string by iterating through the now-randomized list
