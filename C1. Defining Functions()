@@ -1,0 +1,15 @@
+## ----------------- Defining Functions --------------------- ##
+
+# over the course of our coding lives, we will need to create countless functions for our programs
+# functions are like machines made of code that execute specific tasks for a desired outcome 
+# in order to create or 'define' a function we first start by typing the keyword 'def'
+
+def function_name():
+	print('Hey There')
+	print('Lovely People')
+	
+# the above code, once called, would print 'Hey There' and 'Lovely People' on 2 seperate lines in the console
+# to call a function, you simply type its name followed by a set of parentheses
+# some functions require an argument to be placed inside the parentheses such as the len() function as well as print()
+# these are function types that require inputs in order to be executed
+
