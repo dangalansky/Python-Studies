@@ -3,10 +3,14 @@
 # over the course of our coding lives, we will need to create countless functions for our programs
 # functions are like machines made of code that execute specific tasks for a desired outcome 
 # in order to create or 'define' a function we first start by typing the keyword 'def'
+# def is followed by the name of your function, ostensibly something that describes what it does
+# a function name is traditionally lower case, cannot have capitols and is followed by a set of parenthese and colon
 
 def function_name():
 	print('Hey There')
 	print('Lovely People')
+	
+
 	
 # the above code, once called, would print 'Hey There' and 'Lovely People' on 2 seperate lines in the console
 # to call a function, you simply type its name followed by a set of parentheses
