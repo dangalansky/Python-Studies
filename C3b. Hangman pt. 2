@@ -4,3 +4,35 @@
 # however, we were returned a very awkward-looking response from the computer
 # let's make the response from the computer look more similar to an IRL version of the game
 
+import random
+word_bank = ['acupuncture', 'backbone', 'cranberry', 'dinosaur', 'elephant']
+chosen_word = random.choice(word_bank)
+
+# after the computer has chosen a word at random, we will populate a list with blanks for each letter of that word
+
+display = []
+
+for _ in range(len(chosen_word)):
+	display += "_"
+
+# above, we have used a 'for loop' in conjunction with the .range() function and the .len() function
+# this populates the list with the correct number of blank spaces
+
+guess = input('Guess a letter:' ).lower()
+
+
+for position in range(len(chosen_word)):
+    letter = chosen_word[position]
+    if letter == guess:
+        display[position] = letter
+
+print(display)
+
+# if the computer randomly chooses 'dinosaur' and the user guesses 'A', this will return:
+
+# ['_', '_', '_', '_', '_', a, '_', '_',]
+
+# again, the program ends here, bc there is no further instruction given. 
+# next lesson, we will address this with a 'while loop'.
+
+
