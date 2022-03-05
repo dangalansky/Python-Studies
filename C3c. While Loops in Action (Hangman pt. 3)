@@ -1,0 +1,27 @@
+## ----------------- Hangman with While Loop ----------------------- ##
+
+# the main issue we have to address is the unability to continue guessing
+# this can be addressed using a 'while loop'
+# to begin, we will set a boolean that will begin as False
+
+end_of_game = False
+
+# now we place our program inside a condition that says, while it is not the end of game, continue running
+
+while not end_of_game:
+	for position in range(len(chosen_word)):
+    letter = chosen_word[position]
+    if letter == guess:
+        display[position] = letter
+
+	print(display)
+
+# now we describe the conditions that would lead to a reversal of end_of_game
+# namely, when there are no more blanks left in display
+
+	if '_' not in display:
+		end_of_game = True
+		print('YOU WIN!')
+
+# in an actual game of hangman, you do not have infinite guesses
+# we will limit the guesses in our next lesson, to more fully resemble the actual game 
