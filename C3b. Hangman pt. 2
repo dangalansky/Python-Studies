@@ -1,0 +1,6 @@
+## ------------------- Hangman Pt. 2 -------------------------- ##
+
+# in the last lesson, we were able to check the user response against the random word
+# however, we were returned a very awkward-looking response from the computer
+# let's make the response from the computer look more similar to an IRL version of the game
+
