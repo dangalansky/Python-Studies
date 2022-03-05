@@ -1,0 +1,36 @@
+## ------------------- Hangman Pt1 -------------------------##
+
+# we will now build an app, based on hangman
+# the app involves a word bank, pre-populated with words 
+# one of which will be chosen at random using the choice() function
+
+import random
+word_bank = ['acupuncture', 'backbone', 'cranberry', 'dinosaur', 'elephant']
+chosen_word = random.choice(word_bank)
+
+Guess = input('Guess a letter': ).lower()
+
+# we are now asking the user to imput a letter to guess
+# the .lower() function takes a string and returns all lowercase letters
+# this is particularly important when 'A' is considered a different character than 'a'
+
+for letter in chosen_word:
+	if letter == guess:
+		print('correct')
+	else:
+		print('wrong')
+
+# the above 'for loop' cycles through every letter of the randomly chosen word and checks it against the user letter
+# if we were to guess 'A' to begin and the word was dinosaur, we would recieve this in response:
+	
+	# wrong
+	# wrong
+	# wrong
+	# wrong
+	# wrong
+	# correct
+	# wrong
+	# wrong 
+
+# unfortunately, this is where the program ends because that's all the code says to do
+# in order to keep the program running, we need a 'while loop'
