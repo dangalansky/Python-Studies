@@ -1,0 +1,38 @@
+## ----------------------------- The Final Code for Hangman ---------------------------- ##
+
+# so ideally, at this point, you will want to take your word list and hide it in another module
+# in this case my module is called 'word_bank'
+
+# import the modules
+from word_bank import word_bank
+import random
+
+# pre-set conditions of game
+end_of_game = False
+lives = 6
+
+# populate the display with a random word
+chosen_word = random.choice(word_bank)
+display = []
+for _ in range(len(chosen_word)):
+	display += "_"
+
+# game play
+while not end_of_game:
+
+    guess = input('Guess a letter:').lower()
+
+    for position in range(len(chosen_word)):
+        letter = chosen_word[position]
+        if letter == guess:
+            display[position] = letter
+        if '_' not in display:
+            end_of_game = True
+            print('YOU WIN!')
+    if guess not in chosen_word:
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print('Game Over. You Lose!')
+    print(f'Tries Left:{lives}')
+    print(' '.join(display))
