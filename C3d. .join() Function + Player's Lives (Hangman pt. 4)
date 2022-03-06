@@ -1,0 +1,26 @@
+## ------------------- Adding the 'Lives' Element to Hangman ----------------------- ##
+
+# in order to limit the amount of incorrect attempts a player has, we will create a variable called 'lives'
+# let's give the lives to 6
+
+lives = 6
+
+# now we set a condition, where the lives will lower by 1 each time a guess is incorrect
+
+if guess not in chosen_word:
+  lives -= 1
+    if lives == 0:
+      end_of_game = True
+      print('Game Over. You Lose!')
+      
+## ----------------- Converting List to String ------------------- ##
+
+# a final step to improve the UI experience would be to make display show itself as a string
+# using .join() converts the string to a list as long as the list items are the same datatype
+
+print(' '.join(display))
+
+# the above command takes the list, 'display' and converts it to a string
+# the space in quotes tells the computer to seperate the items by a space 
+# you can instead put anything inside those quotes, say a '#' for instance 
+
