@@ -1,10 +1,12 @@
 ## ----------------- Defining Functions --------------------- ##
 
-# over the course of our coding lives, we will need to create countless functions for our programs
 # functions are like machines made of code that execute specific tasks for a desired outcome 
-# in order to create or 'define' a function we first start by typing the keyword 'def'
+# over the course of our coding lives, we will need to define countless functions for our programs
+# in order to create or 'define' a function, we first start by typing the keyword 'def'
 # def is followed by the name of your function, ostensibly something that describes what it does
-# a function name is traditionally lower case, cannot have capitols and is followed by a set of parenthese and colon
+# what a function is called, is completely up to the developer
+# remember: variables should make sense to someone who knows nothing about your code
+# a function name is traditionally lower case, cannot have capitols and is followed by a set of parentheses and a colon
 
 def function_name():
 	print('Hey There')
@@ -14,6 +16,4 @@ def function_name():
 	
 # the above code, once called, would print 'Hey There' and 'Lovely People' on 2 seperate lines in the console
 # to call a function, you simply type its name followed by a set of parentheses
-# some functions require an argument to be placed inside the parentheses such as the len() function as well as print()
-# these are function types that require inputs in order to be executed
-
+# some functions require an argument to be placed inside the parentheses such as the len() function and print()
