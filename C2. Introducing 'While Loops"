@@ -1,13 +1,14 @@
 ## -------------- Intro to 'While Loops ---------------- ##
 
-# a 'for loop' executes for the duration of a particular iteration.
-# it tends to be more finite
+# a 'for loop' executes for the duration of a particular iteration
+# the length of a string, list or range for example
+# thus, they tend to be more finite
 
-# do item in list_of_items:
+# for item in list_of_items:
 	#do something to each item
  
 
-# while loops continue to execute while a particular condition remains True (or False)
+# 'while loops' continue to execute while a particular condition (or lack thereof) remains True 
 
 
 # while something_is_true:
@@ -21,9 +22,9 @@ while number_of_puppies > 10:
 	adopt_dog()
 	number_of_puppies -= 1
 
-# you can use a 'while loop' to keep your program running by wrapping your code in a while loop
+# you can use a 'while loop' to keep your program running by nesting your code in a 'while loop'
 # your program will run until some specific condition occurs. 
-	
+# we will see a great example of this when we build our hangman application
   
   
   
