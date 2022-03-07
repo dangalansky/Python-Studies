@@ -1,8 +1,8 @@
 ## ------------- The Shuffle Function ------------- ##
 
 # we last left off with a list containing a set of randomly selected characters for a password
-# unfortunately, it is still ordered, containing letters then numbers then symbols
-# to further complicate our password, it would help to randomize the list
+# unfortunately, it is still ordered from our lists: letters, then numbers then symbols
+# to further obscure our password, it would help to randomize this order
 
 import random
 
@@ -18,5 +18,5 @@ for character in password:
 print(randomized_password)
 
 # after we return a randomized list we need to convert that into a string
-# much like how we created an empty list to populate in the last lesson, we will create an empty string
+# much like how we created an empty list to populate in the last lesson, we will now create an empty string
 # using a 'for loop' we populate the string by iterating through the now-randomized list
