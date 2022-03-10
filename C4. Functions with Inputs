@@ -1,0 +1,37 @@
+## -------------------- Functions with Inputs ------------------ ##
+
+def say_hello(name):
+	print(f'Hello {name}!)
+
+
+# the above function requires an input to complete its execution
+# in this case the variable 'name' is referred to as a 'parameter'
+# the data a user inserts into its place is referred to as an 'argument'
+
+say_hello(Susan)
+
+# the above function would print: Hello Susan!
+
+# a function can have unlimited parameters
+
+def say_hello(name, location):
+	print(f'Hello {name}!)
+	print(f'Welcome to {location}')
+
+
+# by default, these arguments are positional
+# that means, the position within the parentheses determines what parameter the argument represents
+
+say_hello(Susan, Denver)
+
+#the above function call would return: Hello Susuan! Welcome to Denver
+# if we reversed the order, here's what it would look like
+
+say_hello(Denver, Susuan)
+
+# this above function call would return: Hellow Denver! Welcome to Susan
+# we could instead insert 'keyword arguments' which allows the order to be irrelevant
+
+say_hello(location=Denver, name=Susan)
+
+# This would return the originally intended statement: Hello Susan! Welcome to Denver
