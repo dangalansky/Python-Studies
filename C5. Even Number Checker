@@ -1,0 +1,16 @@
+## -------------------- Even Number Checker ---------------------- ##
+
+def even_number_check(number):
+	is_odd = True
+	for _ in range (2, number):
+		if number % 2 == 0:
+			is_odd = False
+	if is_odd:
+		print('Odd Number!')
+	else:
+		print('Even Number!')
+		
+ # the above code is a great example of boolean usage
+ # since 0 and 1 are of no interest, we start the range at 2
+ # we assume the number is odd until otherwise proven
+ # if that number, when divided by 2 using the modulo operator, leaves no remainder, it is even
