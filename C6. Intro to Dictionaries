@@ -1,0 +1,27 @@
+## ---------------- Intro To Dictionaries --------------------- ##
+
+# dictionaries are signified by the use of curly brackets: {}
+# within the curly brakets, related pieces of information are grouped together
+
+# proper formatting:
+
+programming_dictionary: {
+  "bug" : "an error in a program",
+  "function" : "a piece of code that can be easily recalled",
+}
+
+# there are two parts to a dictionary entry: the KEY and the VALUE
+# in the above example, BUG = the key, AN ERROR IN A PROGRAM = the value
+
+* note that the value is followed by a comma!
+
+## --------------- Recalling a Value From a Dictionary ----------- ##
+
+# to recall a value from a dictionary, simply state the name of the dictionary followed by the key inside quotes, inside square brackets
+
+ex) to receive value:
+
+print(programming_dictionary["bug"])
+
+return: an error in a program
+  
