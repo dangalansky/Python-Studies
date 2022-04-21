@@ -24,4 +24,3 @@ ex) to receive value:
 print(programming_dictionary["bug"])
 
 return: an error in a program
-  
