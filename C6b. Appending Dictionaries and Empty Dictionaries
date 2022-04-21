@@ -1,0 +1,16 @@
+## ---------------------- Adding Items to A Dictionary ----------------------- ##
+
+# we have a pre-defined dictionary called 'programming_dictionary'
+# lets add a key/value pair
+# to do this, we state the name of the dictionary we are appending, followed by the new key and value, like so:
+
+programming_dictionary["loop"] = "the action of doing something repeatedly until a particular condition is satisfied"
+
+## ----------------------- The Empty Dictionary -------------------------- ##
+
+# an empty dictionary would like this:
+
+programming_dictionary = {}
+
+# if we were to place this further down in the code than our previous actions, it would empty the dictionary
+# but this can also be useful for creating an empty space to populate with data later on!
