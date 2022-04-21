@@ -1,0 +1,31 @@
+## ----------------- Dictionaries inside Lists -------------------- ##
+
+# a list can contain a dictionary(s)
+
+list = [
+  dictionary_one = {
+    "key": "value",
+  }
+]
+
+# the dictionary is indexed like any other list item
+ print(list[0])
+ 
+ return: {"key": "value"}
+
+
+# also! a dictionary can contain a list
+
+dictionary_one = {
+  "key": ["item", "item_two"]
+}
+
+# say we want to recieve an item from the list nested inside the dictionary
+# we'd do this by reaching into 'key' as normal and then an index of the list
+
+print(dictionary_one["key"][0]
+returns: item
+
+print(dictionary_one["key"][1]
+returns: item_two
+
