@@ -6,6 +6,14 @@
 
 programming_dictionary["loop"] = "the action of doing something repeatedly until a particular condition is satisfied"
 
+## ---------------------- Redefining a Key ------------------------------ ##
+
+# similar to how we add items, we can also redefine pre-existing keys in our dictionary
+# the form is the same, simply state the dictionary, key and place the new value you wish to pair with it
+
+programming_dictionary["bug"] = "something completely different"
+
+
 ## ----------------------- The Empty Dictionary -------------------------- ##
 
 # an empty dictionary would like this:
